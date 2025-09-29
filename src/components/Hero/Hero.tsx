@@ -1,6 +1,9 @@
 import styles from './Hero.module.css';
 
 export function Hero() {
+
+  const title = `Olá, eu sou o Jader. Desenvolvedor Full-Stack.`;
+
   const paragraph = `
     Com experiência em projetos PHP e uma base sólida em Java, JavaScript, MySQL e IA, 
     estou sempre em busca de novos desafios.  Atualmente, estou 
@@ -12,7 +15,10 @@ export function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.content}>
-        <h1>Olá, eu sou o Jader. Desenvolvedor Full-Stack.</h1>
+        <h1>
+          {title}
+        </h1>
+        
         <p>
           {paragraph} 
         </p>
