@@ -1,0 +1,57 @@
+.header {
+  width: 100%;
+  padding: 1.5rem 2rem; /* Espaçamento interno */
+  display: flex; /* Para alinhar itens lado a lado */
+  justify-content: space-between; /* Espaçamento entre logo, nav e social */
+  align-items: center; /* Alinha verticalmente no centro */
+  background-color: #000306; /* Cor de fundo da barra de navegação, um pouco mais clara que o fundo geral */
+  color: #FFFFFF; /* Cor do texto */
+  position: sticky; /* Fica fixo no topo ao rolar */
+  top: 0;
+  z-index: 1000; /* Garante que fique acima de outros elementos */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Linha sutil na parte inferior */
+}
+
+.logo {
+  height: 40px; /* Ajuste o tamanho da logo conforme necessário */
+  margin-right: 2rem;
+  transform: scale(2.1);
+}
+
+.navigation {
+  display: flex;
+  gap: 2.5rem; /* Espaço entre os links de navegação */
+}
+
+.navLink {
+  color: #FFFFFF;
+  text-decoration: none; /* Remove sublinhado */
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease; /* Transição suave para o hover */
+}
+
+.navLink:hover {
+  color: #E5C379; /* Cor no hover */
+}
+
+.social {
+  display: flex;
+  gap: 1.5rem; /* Espaço entre os ícones sociais */
+}
+
+.socialLink {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.socialLink svg {
+  font-size: 2rem;
+}
+
+.socialLink:hover {
+  color: #E5C379; /* Cor no hover */
+}
