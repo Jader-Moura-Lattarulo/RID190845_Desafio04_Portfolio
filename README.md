@@ -10,8 +10,7 @@ Você pode visualizar o projeto final em funcionamento no seguinte link:
 
 ## 📸 Screenshot
 
-![Screenshot do Portfólio](caminho/para/seu/screenshot.png)
-*Instrução: Tire um print da sua página final e adicione a imagem a esta pasta, depois atualize o caminho acima.*
+![Screenshot do Portfólio](public/assets/portfolio-screenshot.png)
 
 ---
 
@@ -64,5 +63,5 @@ O projeto estará disponível em `http://localhost:5173` (ou outra porta indicad
 
 **Jader Moura Lattarulo**
 
-- **LinkedIn:** [https://www.linkedin.com/in/seu-usuario/](https://www.linkedin.com/in/seu-usuario/)
+- **LinkedIn:** [https://www.linkedin.com/in/dev-jader/](https://www.linkedin.com/in/dev-jader/)
 - **GitHub:** [https://github.com/Jader-Moura-Lattarulo](https://github.com/Jader-Moura-Lattarulo)
