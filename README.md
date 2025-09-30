@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# Portfólio Profissional - Desafio de Engenharia de Software
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um portfólio profissional desenvolvido como parte de um desafio para o curso de Engenharia de Software da DNC. O objetivo foi criar uma página única (Single-Page Application) atraente e funcional para apresentar habilidades, projetos e trajetória profissional, utilizando tecnologias modernas do ecossistema React.
 
-Currently, two official plugins are available:
+## 🚀 Acesso ao Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Você pode visualizar o projeto final em funcionamento no seguinte link:
 
-## React Compiler
+**[https://jmdev-portfolio-25bnh7yu8-jaders-projects-74796e1a.vercel.app/](https://jmdev-portfolio-25bnh7yu8-jaders-projects-74796e1a.vercel.app/)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Screenshot
 
-## Expanding the ESLint configuration
+![Screenshot do Portfólio](caminho/para/seu/screenshot.png)
+*Instrução: Tire um print da sua página final e adicione a imagem a esta pasta, depois atualize o caminho acima.*
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📖 Sobre o Projeto
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 📝 Documentação do Template (Critério de Avaliação)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Conforme especificado nos critérios do desafio, este projeto foi desenvolvido com base no **Template 02** fornecido no Figma. Todo o layout, componentes e estilização seguiram as diretrizes do template selecionado para garantir consistência visual e cumprimento dos requisitos.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### ✨ Funcionalidades e Requisitos Cumpridos
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Componentização:** A aplicação foi dividida em componentes reutilizáveis para cada seção (Header, Hero, Projects, AboutMe, Footer).
+- **Dados Centralizados:** As informações de projetos e da linha do tempo são gerenciadas em um arquivo `data.ts`, facilitando futuras atualizações.
+- **Uso de Hooks (`useState` e `useEffect`):** O projeto utiliza os hooks `useState` e `useEffect` para cumprir os requisitos do desafio. O `useEffect` foi utilizado para definir o título da página dinamicamente.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Tecnologias Utilizadas
+
+- **React:** Biblioteca principal para a construção da interface.
+- **TypeScript:** Para adicionar tipagem estática e segurança ao código.
+- **Vite:** Ferramenta de build e desenvolvimento local de alta performance.
+- **CSS Modules:** Para estilização escopada e organizada por componente.
+- **React Icons:** Para a utilização de ícones vetoriais (GitHub, LinkedIn).
+- **Vercel:** Para deploy e hospedagem do projeto.
+
+---
+
+## ⚙️ Como Executar o Projeto Localmente
+
+Siga os passos abaixo para rodar o projeto na sua máquina:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/Jader-Moura-Lattarulo/RID190845_Desafio04_Portfolio.git](https://github.com/Jader-Moura-Lattarulo/RID190845_Desafio04_Portfolio.git)
+    ```
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd RID190845_Desafio04_Portfolio
+    ```
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+O projeto estará disponível em `http://localhost:5173` (ou outra porta indicada no terminal).
+
+## 👨‍💻 Autor
+
+**Jader Moura Lattarulo**
+
+- **LinkedIn:** [https://www.linkedin.com/in/seu-usuario/](https://www.linkedin.com/in/seu-usuario/)
+- **GitHub:** [https://github.com/Jader-Moura-Lattarulo](https://github.com/Jader-Moura-Lattarulo)
