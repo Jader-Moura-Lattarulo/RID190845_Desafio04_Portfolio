@@ -8,7 +8,6 @@
   margin-bottom: 2rem;
 }
 
-/* Voltamos a um grid simples de 2 colunas */
 .projectsGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

@@ -1,10 +1,8 @@
 .card {
   border-radius: 15px;
-  overflow: hidden; /* Essencial para o conteúdo não vazar das bordas arredondadas */
+  overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  
-  /* PONTO-CHAVE 1: O card se torna a referência para o posicionamento do conteúdo */
   position: relative; 
 }
 
@@ -25,12 +23,11 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 0; /* Ocupa toda a largura */
+  right: 0;
 
   padding: 1.5rem;
   box-sizing: border-box;
   
-  /* O efeito de vidro fosco que queríamos */
   background-color: rgba(26, 26, 46, 0.75);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -39,16 +36,15 @@
 .cardContent h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-size: 1.2rem; /* Ajustei um pouco para caber melhor */
+  font-size: 1.2rem;
   color: #FFFFFF;
 }
 
 .cardContent p {
   color: #E0E0E0;
   line-height: 1.5;
-  font-size: 0.9rem; /* Ajustei um pouco para caber melhor */
+  font-size: 0.9rem;
   margin-bottom: 1rem;
-  /* Limitando a altura do parágrafo para evitar que ele fique muito grande */
   max-height: 55px;
   overflow: hidden;
 }
@@ -58,7 +54,6 @@
   gap: 1rem;
 }
 
-/* O resto dos estilos (.button, .privateRepo, etc.) continua igual */
 .button {
   display: inline-block;
   padding: 0.5rem 1rem;

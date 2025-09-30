@@ -9,8 +9,6 @@ export function Footer() {
   return (
     <footer className={styles.footer} id="contact">
       <div className={styles.mainContent}>
-        
-        {/* Bloco de Contato (Esquerda) */}
         <div className={styles.contactInfo}>
           <div className={styles.contactBlock}>
             <p>Meu contato:</p>
@@ -21,8 +19,6 @@ export function Footer() {
             <strong>jader.dev.moura@gmail.com</strong>
           </div>
         </div>
-        
-        {/* Bloco Social (Direita) */}
         <div className={styles.socialGroup}>
           <img src={logoTexto} alt="Logo JMDEV" className={styles.footerLogo} />
           <div className={styles.socialIcons}>

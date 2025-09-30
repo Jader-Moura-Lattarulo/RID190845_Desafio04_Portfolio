@@ -36,7 +36,6 @@
   margin: 0 auto;
 }
 
-/* A BOLINHA - Com prioridade máxima */
 .timelineItem::before {
   content: '';
   position: absolute;
@@ -55,7 +54,6 @@
   z-index: 2;
 }
 
-/* O ANO */
 .timelineContent h3 {
   position: relative;
   display: inline-block;
@@ -63,10 +61,8 @@
   padding: 0 0.5rem;
   background-color: #1A1A2E;
   font-size: 1.5rem;
-  /* O z-index aqui não é mais necessário, pois o pai (.timelineContent) já controla */
 }
 
-/* A DESCRIÇÃO */
 .timelineContent p {
   margin-top: 2rem;
   font-size: 0.9rem;

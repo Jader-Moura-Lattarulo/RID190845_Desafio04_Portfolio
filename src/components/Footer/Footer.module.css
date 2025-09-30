@@ -16,13 +16,11 @@
   align-items: center;
 }
 
-/* NOVO: Container para os blocos de contato */
 .contactInfo {
   display: flex;
-  gap: 3rem; /* Espaço entre "Meu contato" e "Email" */
+  gap: 3rem;
 }
 
-/* NOVO: Estilo para cada bloco de contato (label + valor) */
 .contactBlock {
   text-align: left;
 }
@@ -39,7 +37,6 @@
   font-weight: 500;
 }
 
-/* NOVO: Grupo que une a logo e os ícones */
 .socialGroup {
   display: flex;
   align-items: center;
@@ -52,7 +49,7 @@
 
 .socialIcons {
   display: flex;
-  gap: 1.5rem; /* Espaço entre os ícones */
+  gap: 1.5rem;
 }
 
 .socialIcons a {
