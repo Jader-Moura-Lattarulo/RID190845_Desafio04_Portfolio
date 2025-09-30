@@ -6,7 +6,7 @@ Este projeto é um portfólio profissional desenvolvido como parte de um desafio
 
 Você pode visualizar o projeto final em funcionamento no seguinte link:
 
-**[https://jmdev-portfolio-25bnh7yu8-jaders-projects-74796e1a.vercel.app/](https://jmdev-portfolio-25bnh7yu8-jaders-projects-74796e1a.vercel.app/)**
+**[https://jmdev-portfolio.vercel.app/](https://jmdev-portfolio.vercel.app/)**
 
 ## 📸 Screenshot
 
